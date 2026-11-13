@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Description -->
+    <meta name="description"
+        content="ProperKiraaya helps you find rooms, flats, houses, PGs and hostels for rent across India.">
+
+    <!-- Website Title -->
+    <title>ProperKiraaya | Find Your Perfect Rental Home</title>
+
+    <!-- CSS Connection -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/logos/logo.png">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <!-- Website Logo -->
+        <div class="logo">
+            <a href="index.html">Proper<span>Kiraaya</span></a>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li><a href="#properties">Properties</a></li>
+
+            <li><a href="#categories">Categories</a></li>
+
+            <li><a href="#about">About Us</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <!-- Navbar Buttons -->
+        <div class="nav-buttons">
+
+            <a href="./pages/login.html" class="login-btn">Login</a>
+
+            <a href="./pages/signup.html" class="signup-btn">Sign Up</a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <section class="hero-section">
+
+    <div class="hero-content">
+
+        <p class="hero-tagline">WELCOME TO PROPERKIRAAYA</p>
+
+        <h1>
+            Find Your Perfect
+            <span>Place To Live</span>
+        </h1>
+
+        <p class="hero-description">
+            Discover rooms, flats, houses, PGs and hostels
+            for rent across India. Find a place that feels
+            like home.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#properties" class="explore-btn">
+                Explore Properties
+            </a>
+
+            <a href="./pages/signup.html" class="owner-btn">
+                List Your Property
+            </a>
+
+        </div>
+
+    </div>
+
+        </section>
+
+
+        <!-- Property Search Section -->
+
+        <section class="search-section">
+                <div class="search-container">
+
+        <div class="search-box">
+
+            <!-- Location -->
+            <div class="search-field">
+
+                <label for="location">Location</label>
+
+                <input
+                    type="text"
+                    id="location"
+                    placeholder="Enter city or location"
+                >
+
+            </div>
+
+
+            <!-- Property Type -->
+            <div class="search-field">
+
+                <label for="property-type">Property Type</label>
+
+                <select id="property-type">
+
+                    <option value="">Select Property</option>
+                    <option value="room">Room</option>
+                    <option value="flat">Flat</option>
+                    <option value="house">House</option>
+                    <option value="pg">PG</option>
+                    <option value="hostel">Hostel</option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Budget -->
+            <div class="search-field">
+
+                <label for="budget">Maximum Budget</label>
+
+                <select id="budget">
+
+                    <option value="">Select Budget</option>
+                    <option value="5000">₹5,000</option>
+                    <option value="10000">₹10,000</option>
+                    <option value="15000">₹15,000</option>
+                    <option value="20000">₹20,000</option>
+                    <option value="30000">₹30,000+</option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Search Button -->
+            <button type="button" class="search-btn">
+
+                Search Property
+
+            </button>
+
+        </div>
+
+    </div>
+
+        </section>
+
+
+        <!-- Property Categories -->
+
+        <section class="categories-section" id="categories">
+
+    <div class="categories-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+
+            <p class="section-tagline">EXPLORE CATEGORIES</p>
+
+            <h2>Find Your Perfect Property</h2>
+
+            <p>
+                Explore different types of rental properties
+                and choose the one that suits your needs.
+            </p>
+
+        </div>
+
+
+        <!-- Category Cards -->
+        <div class="categories-grid">
+
+            <a href="#properties" class="category-card">
+
+                <div class="category-icon">🏠</div>
+
+                <h3>Room</h3>
+
+                <p>Find comfortable rooms for rent.</p>
+
+            </a>
+
+
+            <a href="#properties" class="category-card">
+
+                <div class="category-icon">🏢</div>
+
+                <h3>Flat</h3>
+
+                <p>Discover flats for your lifestyle.</p>
+
+            </a>
+
+
+            <a href="#properties" class="category-card">
+
+                <div class="category-icon">🏡</div>
+
+                <h3>House</h3>
+
+                <p>Find your perfect rental house.</p>
+
+            </a>
+
+
+            <a href="#properties" class="category-card">
+
+                <div class="category-icon">🛏️</div>
+
+                <h3>PG</h3>
+
+                <p>Affordable PG accommodation.</p>
+
+            </a>
+
+
+            <a href="#properties" class="category-card">
+
+                <div class="category-icon">🏨</div>
+
+                <h3>Hostel</h3>
+
+                <p>Find budget-friendly hostels.</p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- Featured Properties -->
+
+        <section class="featured-properties" id="properties">
+
+    <div class="properties-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+
+            <p class="section-tagline">FEATURED PROPERTIES</p>
+
+            <h2>Explore Our Latest Properties</h2>
+
+            <p>
+                Discover comfortable and affordable rental
+                properties in your preferred location.
+            </p>
+
+        </div>
+
+
+        <!-- Properties Grid -->
+        <div class="properties-grid">
+
+
+            <!-- Property Card 1 -->
+            <article class="property-card">
+
+                <div class="property-image">
+
+                    <img src="./assets/images/property-1.jpg"
+                         alt="Modern rental flat">
+
+                    <span class="property-badge">Featured</span>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">FLAT</span>
+
+                    <h3>Modern 2 BHK Flat</h3>
+
+                    <p class="property-location">
+                        📍 Bareilly, Uttar Pradesh
+                    </p>
+
+                    <div class="property-details">
+
+                        <span>🛏️ 2 Bedrooms</span>
+                        <span>🚿 2 Bathrooms</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <h4>₹12,000 <span>/month</span></h4>
+
+                        <a href="#" class="details-btn">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property Card 2 -->
+            <article class="property-card">
+
+                <div class="property-image">
+
+                    <img src="./assets/images/property-2.jpg"
+                         alt="Comfortable rental room">
+
+                    <span class="property-badge">Popular</span>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">ROOM</span>
+
+                    <h3>Comfortable Single Room</h3>
+
+                    <p class="property-location">
+                        📍 Lucknow, Uttar Pradesh
+                    </p>
+
+                    <div class="property-details">
+
+                        <span>🛏️ 1 Bedroom</span>
+                        <span>🚿 1 Bathroom</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <h4>₹5,000 <span>/month</span></h4>
+
+                        <a href="#" class="details-btn">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property Card 3 -->
+            <article class="property-card">
+
+                <div class="property-image">
+
+                    <img src="./assets/images/property-3.jpg"
+                         alt="Spacious rental house">
+
+                    <span class="property-badge">New</span>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">HOUSE</span>
+
+                    <h3>Spacious Family House</h3>
+
+                    <p class="property-location">
+                        📍 Delhi, India
+                    </p>
+
+                    <div class="property-details">
+
+                        <span>🛏️ 3 Bedrooms</span>
+                        <span>🚿 2 Bathrooms</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <h4>₹20,000 <span>/month</span></h4>
+
+                        <a href="#" class="details-btn">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- Why Choose Us -->
+
+        <section class="why-choose-us" id="about">
+
+    <div class="why-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+
+            <p class="section-tagline">WHY PROPERKIRAAYA</p>
+
+            <h2>Why Choose ProperKiraaya?</h2>
+
+            <p>
+                We make finding your perfect rental home
+                easier, faster and more convenient.
+            </p>
+
+        </div>
+
+
+        <!-- Features Grid -->
+        <div class="features-grid">
+
+
+            <!-- Feature 1 -->
+            <div class="feature-card">
+
+                <div class="feature-icon">🔍</div>
+
+                <h3>Easy Property Search</h3>
+
+                <p>
+                    Find rental properties easily using
+                    location, property type and budget.
+                </p>
+
+            </div>
+
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+
+                <div class="feature-icon">🏠</div>
+
+                <h3>Multiple Options</h3>
+
+                <p>
+                    Explore rooms, flats, houses,
+                    PGs and hostels in one place.
+                </p>
+
+            </div>
+
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+
+                <div class="feature-icon">🤝</div>
+
+                <h3>Direct Owner Contact</h3>
+
+                <p>
+                    Connect directly with property owners
+                    to discuss rental requirements.
+                </p>
+
+            </div>
+
+
+            <!-- Feature 4 -->
+            <div class="feature-card">
+
+                <div class="feature-icon">⚡</div>
+
+                <h3>Simple & Fast Process</h3>
+
+                <p>
+                    Save time with a simple and
+                    convenient property search experience.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer" id="contact">
+
+    <div class="footer-container">
+
+        <!-- Company Information -->
+        <div class="footer-column">
+
+            <h2 class="footer-logo">
+                Proper<span>Kiraaya</span>
+            </h2>
+
+            <p>
+                Find your perfect rental home with ProperKiraaya.
+                Explore rooms, flats, houses, PGs and hostels
+                across India.
+            </p>
+
+        </div>
+
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Property Links -->
+        <div class="footer-column">
+
+            <h3>Property Types</h3>
+
+            <ul>
+                <li><a href="#categories">Rooms</a></li>
+                <li><a href="#categories">Flats</a></li>
+                <li><a href="#categories">Houses</a></li>
+                <li><a href="#categories">PG & Hostels</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Contact Information -->
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <ul>
+                <li>Email: SachinKumar@properkiraaya.com</li>
+                <li>Location: India</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ProperKiraaya. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
